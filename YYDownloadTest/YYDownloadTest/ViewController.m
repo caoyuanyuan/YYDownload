@@ -44,7 +44,7 @@
         self.downloader = nil;
     }
     YYDownloadManager *downloadManager = [YYDownloadManager sharedInstance];
-    NSURL *url = [NSURL URLWithString:@"http://cdn.kufm.cn/playback4/M03/03/D8/CgGI6lhkhdaAOj89ABGjj4fFHrc523.aac"];
+    NSURL *url = [NSURL URLWithString:@"http://120.25.226.186:32812/resources/videos/minion_03.mp4"];
     self.downloader = [downloadManager startDownloadWithURL:url customPath:kFileDownloadPath delegate:self];
 }
 
